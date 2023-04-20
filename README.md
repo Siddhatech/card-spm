@@ -1,6 +1,6 @@
 # AKCardSwift *by Autentikar*
 
-## version 1.4.0 :rocket:
+## version 1.4.1 :rocket:
 
 # Updated
 * Support for Object-C.

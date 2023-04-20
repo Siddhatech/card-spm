@@ -12,6 +12,49 @@
 		<data>
 		gyZROrcmjxQKZeAqfNe+01oPGqM=
 		</data>
+		<key>Frameworks/AKCoreSwift.framework/AKCoreSwift</key>
+		<data>
+		OqvxXZ7gR6qJKfX71BQrLX6LBvk=
+		</data>
+		<key>Frameworks/AKCoreSwift.framework/Assets.car</key>
+		<data>
+		O0KFIZnRjy5/R2RWStCiKCs+Ja8=
+		</data>
+		<key>Frameworks/AKCoreSwift.framework/Base.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5AT35pYFZYxvWx7FA3KZ1syBr44=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/AKCoreSwift.framework/Info.plist</key>
+		<data>
+		rTFsEu4Ba94RfdbxHOE28hwyXoY=
+		</data>
+		<key>Frameworks/AKCoreSwift.framework/_CodeSignature/CodeResources</key>
+		<data>
+		QBgFPp2V8L4ZzZASGFrOvCWcbIo=
+		</data>
+		<key>Frameworks/AKCoreSwift.framework/es-419.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QZG0fkC2gP43T9mzYJZvcOj9NE0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/AKCoreSwift.framework/es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QZG0fkC2gP43T9mzYJZvcOj9NE0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Headers/AKCardCaptureSwift-Swift.h</key>
 		<data>
 		MQZGmHxWCVrpa7Eqj/e3aHCBna4=
@@ -22,7 +65,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LlcGqPO5DZep1j9YBaOf67NZSK0=
+		S8qXGdd5iipgmjEBFIKYO2Tahqo=
 		</data>
 		<key>Modules/AKCardCaptureSwift.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -42,7 +85,7 @@
 		</data>
 		<key>Modules/AKCardCaptureSwift.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		wq4KSJxj0PEmX82SG79ykFMdyhI=
+		Y90TYlhd2rlpIAaHYK+qnmKKBHE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -73,6 +116,61 @@
 			<data>
 			kVg9Y/Y6Q6h20dLqunMbnUCkz5KdgoMABl0Xc6162Mw=
 			</data>
+		</dict>
+		<key>Frameworks/AKCoreSwift.framework/AKCoreSwift</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			f4G5kHHchuMJR05Da8cpuOSmZZXd5lKELPJSoyaKrG8=
+			</data>
+		</dict>
+		<key>Frameworks/AKCoreSwift.framework/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iEiBD8fJjX5oocOMa9g9DsM8qPND2AHmRnlapUMKoZY=
+			</data>
+		</dict>
+		<key>Frameworks/AKCoreSwift.framework/Base.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			e6R9KUzS+x1ojB1UnlatsZmhGFjzdzeIsIbFW3qD+/I=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/AKCoreSwift.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aq5nPwFwIvUo59OOcuFDtrBNRzrXAXV6K4ud4dopmyM=
+			</data>
+		</dict>
+		<key>Frameworks/AKCoreSwift.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			41K8vcCbaNU7Sjm6Qh0DTZ4rFWHxDMeyYTHtsBGzEXk=
+			</data>
+		</dict>
+		<key>Frameworks/AKCoreSwift.framework/es-419.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mfeLZh8SC+nE5KZ1r8ZKvWKrjWddG/XOSuAgx3FNBPg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/AKCoreSwift.framework/es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mfeLZh8SC+nE5KZ1r8ZKvWKrjWddG/XOSuAgx3FNBPg=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>Headers/AKCardCaptureSwift-Swift.h</key>
 		<dict>
@@ -120,7 +218,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vk5nmsVBw9PR7QGalnvh8HYu3a6qVPIHch3vSOw6FhQ=
+			CRTiH5PtALHqdeIBymJNh17+0cg9RXtsfO3HaW+/+Jc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
