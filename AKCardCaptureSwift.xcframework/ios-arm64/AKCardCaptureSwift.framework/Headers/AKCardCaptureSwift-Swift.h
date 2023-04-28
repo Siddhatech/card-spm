@@ -260,6 +260,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import AKCoreSwift;
 @import ObjectiveC;
 #endif
 
@@ -287,7 +288,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC18AKCardCaptureSwift13AKCardCapture")
 @interface AKCardCapture : NSObject
 + (void)setCustomizationWithCustomization:(CardCaptureCustomization * _Nonnull)customization;
-+ (id <AKStepSharedRouterProtocol> _Nonnull)getProtocol SWIFT_WARN_UNUSED_RESULT;
++ (id <AKStepSharedRouterProtocol> _Nonnull)getProtocolWithStep:(enum AKStepType)step SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

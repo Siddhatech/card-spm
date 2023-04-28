@@ -2118,20 +2118,27 @@
           {
             "kind": "Function",
             "name": "getProtocol",
-            "printedName": "getProtocol()",
+            "printedName": "getProtocol(step:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "AKStepSharedRouterProtocol",
                 "printedName": "AKCoreSwift.AKStepSharedRouterProtocol",
                 "usr": "c:@M@AKCoreSwift@objc(pl)AKStepSharedRouterProtocol"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AKStepType",
+                "printedName": "AKCoreSwift.AKStepType",
+                "usr": "c:@M@AKCoreSwift@E@AKStepType"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@AKCardCaptureSwift@objc(cs)AKCardCapture(cm)getProtocol",
-            "mangledName": "$s18AKCardCaptureSwift0aB0C11getProtocol06AKCoreC0018AKStepSharedRouterE0_pyFZ",
+            "usr": "c:@M@AKCardCaptureSwift@objc(cs)AKCardCapture(cm)getProtocolWithStep:",
+            "mangledName": "$s18AKCardCaptureSwift0aB0C11getProtocol4step06AKCoreC0018AKStepSharedRouterE0_pAF0H4TypeO_tFZ",
             "moduleName": "AKCardCaptureSwift",
             "static": true,
+            "objc_name": "getProtocolWithStep:",
             "declAttributes": [
               "Final",
               "AccessControl",
@@ -3622,7 +3629,7 @@
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/StepCardCapturePresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 787,
+      "offset": 765,
       "length": 5,
       "value": "false"
     },

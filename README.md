@@ -1,9 +1,6 @@
 # AKCardSwift *by Autentikar*
 
-## version 1.4.1 :rocket:
+## version 1.4.2 :rocket:
 
-# Updated
-* Support for Object-C.
-* Now minimum support iOS 12.
-* Support for English.
-* major fixes
+# Added
+* new SIMPLE_CARD_CAPTURE and DOCUMENT_VERIFIER steps

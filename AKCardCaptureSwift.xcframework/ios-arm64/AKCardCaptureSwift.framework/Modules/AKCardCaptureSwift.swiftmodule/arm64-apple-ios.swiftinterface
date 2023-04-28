@@ -95,7 +95,7 @@ import _StringProcessing
 }
 @objc @_inheritsConvenienceInitializers public class AKCardCapture : ObjectiveC.NSObject {
   @objc public static func setCustomization(customization: AKCardCaptureSwift.CardCaptureCustomization)
-  @objc public static func getProtocol() -> any AKCoreSwift.AKStepSharedRouterProtocol
+  @objc public static func getProtocol(step: AKCoreSwift.AKStepType) -> any AKCoreSwift.AKStepSharedRouterProtocol
   @objc override dynamic public init()
   @objc deinit
 }
