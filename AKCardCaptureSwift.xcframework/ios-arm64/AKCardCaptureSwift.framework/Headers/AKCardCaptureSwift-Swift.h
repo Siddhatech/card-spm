@@ -295,8 +295,10 @@ SWIFT_CLASS("_TtC18AKCardCaptureSwift13AKCardCapture")
 
 @class UIColor;
 @class UIImage;
+@class UIFont;
 @class Button;
 @class LoadingScreen;
+@class CaptureScreen;
 
 SWIFT_CLASS("_TtC18AKCardCaptureSwift24CardCaptureCustomization")
 @interface CardCaptureCustomization : NSObject
@@ -304,8 +306,10 @@ SWIFT_CLASS("_TtC18AKCardCaptureSwift24CardCaptureCustomization")
 @property (nonatomic, strong) UIColor * _Nonnull backgroundColor;
 @property (nonatomic, strong) UIColor * _Nonnull textColor;
 @property (nonatomic, strong) UIImage * _Nonnull cardRecapture;
+@property (nonatomic, strong) UIFont * _Nullable customFont;
 @property (nonatomic, strong) Button * _Nonnull buttonCustomization;
 @property (nonatomic, strong) LoadingScreen * _Nonnull loadingScreenCustomization;
+@property (nonatomic, strong) CaptureScreen * _Nonnull captureScreenCustomization;
 @end
 
 

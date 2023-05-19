@@ -25,11 +25,19 @@ import _StringProcessing
     @objc get
     @objc set
   }
+  @objc public var customFont: UIKit.UIFont? {
+    @objc get
+    @objc set
+  }
   @objc public var buttonCustomization: AKCardCaptureSwift.CardCaptureCustomization.Button {
     @objc get
     @objc set
   }
   @objc public var loadingScreenCustomization: AKCardCaptureSwift.CardCaptureCustomization.LoadingScreen {
+    @objc get
+    @objc set
+  }
+  @objc public var captureScreenCustomization: AKCardCaptureSwift.CardCaptureCustomization.CaptureScreen {
     @objc get
     @objc set
   }
@@ -48,6 +56,10 @@ import _StringProcessing
       @objc set
     }
     @objc public var textColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc public var customFont: UIKit.UIFont? {
       @objc get
       @objc set
     }
@@ -80,6 +92,26 @@ import _StringProcessing
       @objc set
     }
     @objc public var activityViewColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc public var customFont: UIKit.UIFont? {
+      @objc get
+      @objc set
+    }
+    @objc deinit
+  }
+  @objc @_inheritsConvenienceInitializers public class CaptureScreen : ObjectiveC.NSObject {
+    @objc override dynamic public init()
+    @objc public var closeImage: UIKit.UIImage {
+      @objc get
+      @objc set
+    }
+    @objc public var referenceFrameColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc public var customFont: UIKit.UIFont? {
       @objc get
       @objc set
     }

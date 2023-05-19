@@ -1,6 +1,6 @@
 # AKCardSwift *by Autentikar*
 
-## version 1.4.2 :rocket:
+## version 1.4.3 :rocket:
 
 # Added
-* new SIMPLE_CARD_CAPTURE and DOCUMENT_VERIFIER steps
+* new customFont for views.

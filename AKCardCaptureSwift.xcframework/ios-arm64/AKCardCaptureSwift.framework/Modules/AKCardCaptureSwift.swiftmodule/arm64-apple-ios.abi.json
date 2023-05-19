@@ -372,6 +372,118 @@
           },
           {
             "kind": "Var",
+            "name": "customFont",
+            "printedName": "customFont",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIFont?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AKCardCaptureSwift@objc(cs)CardCaptureCustomization(py)customFont",
+            "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC10customFontSo6UIFontCSgvp",
+            "moduleName": "AKCardCaptureSwift",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIFont?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKCardCaptureSwift@objc(cs)CardCaptureCustomization(im)customFont",
+                "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC10customFontSo6UIFontCSgvg",
+                "moduleName": "AKCardCaptureSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIFont?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKCardCaptureSwift@objc(cs)CardCaptureCustomization(im)setCustomFont:",
+                "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC10customFontSo6UIFontCSgvs",
+                "moduleName": "AKCardCaptureSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC10customFontSo6UIFontCSgvM",
+                "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC10customFontSo6UIFontCSgvM",
+                "moduleName": "AKCardCaptureSwift",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "buttonCustomization",
             "printedName": "buttonCustomization",
             "children": [
@@ -540,6 +652,94 @@
                 "declKind": "Accessor",
                 "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC013loadingScreenE0AC07LoadingG0CvM",
                 "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC013loadingScreenE0AC07LoadingG0CvM",
+                "moduleName": "AKCardCaptureSwift",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "captureScreenCustomization",
+            "printedName": "captureScreenCustomization",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CaptureScreen",
+                "printedName": "AKCardCaptureSwift.CardCaptureCustomization.CaptureScreen",
+                "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AKCardCaptureSwift@objc(cs)CardCaptureCustomization(py)captureScreenCustomization",
+            "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC013captureScreenE0AC0bG0Cvp",
+            "moduleName": "AKCardCaptureSwift",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaptureScreen",
+                    "printedName": "AKCardCaptureSwift.CardCaptureCustomization.CaptureScreen",
+                    "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKCardCaptureSwift@objc(cs)CardCaptureCustomization(im)captureScreenCustomization",
+                "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC013captureScreenE0AC0bG0Cvg",
+                "moduleName": "AKCardCaptureSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaptureScreen",
+                    "printedName": "AKCardCaptureSwift.CardCaptureCustomization.CaptureScreen",
+                    "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AKCardCaptureSwift@objc(cs)CardCaptureCustomization(im)setCaptureScreenCustomization:",
+                "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC013captureScreenE0AC0bG0Cvs",
+                "moduleName": "AKCardCaptureSwift",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC013captureScreenE0AC0bG0CvM",
+                "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC013captureScreenE0AC0bG0CvM",
                 "moduleName": "AKCardCaptureSwift",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -923,6 +1123,118 @@
                     "declKind": "Accessor",
                     "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC6ButtonC9textColorSo7UIColorCvM",
                     "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC6ButtonC9textColorSo7UIColorCvM",
+                    "moduleName": "AKCardCaptureSwift",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "customFont",
+                "printedName": "customFont",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIFont?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC6ButtonC10customFontSo6UIFontCSgvp",
+                "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC6ButtonC10customFontSo6UIFontCSgvp",
+                "moduleName": "AKCardCaptureSwift",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIFont?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIFont",
+                            "printedName": "UIKit.UIFont",
+                            "usr": "c:objc(cs)UIFont"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC6ButtonC10customFontSo6UIFontCSgvg",
+                    "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC6ButtonC10customFontSo6UIFontCSgvg",
+                    "moduleName": "AKCardCaptureSwift",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIFont?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIFont",
+                            "printedName": "UIKit.UIFont",
+                            "usr": "c:objc(cs)UIFont"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC6ButtonC10customFontSo6UIFontCSgvs",
+                    "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC6ButtonC10customFontSo6UIFontCSgvs",
+                    "moduleName": "AKCardCaptureSwift",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC6ButtonC10customFontSo6UIFontCSgvM",
+                    "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC6ButtonC10customFontSo6UIFontCSgvM",
                     "moduleName": "AKCardCaptureSwift",
                     "implicit": true,
                     "accessorKind": "_modify"
@@ -1642,6 +1954,118 @@
                     "accessorKind": "_modify"
                   }
                 ]
+              },
+              {
+                "kind": "Var",
+                "name": "customFont",
+                "printedName": "customFont",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIFont?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC13LoadingScreenC10customFontSo6UIFontCSgvp",
+                "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC13LoadingScreenC10customFontSo6UIFontCSgvp",
+                "moduleName": "AKCardCaptureSwift",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIFont?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIFont",
+                            "printedName": "UIKit.UIFont",
+                            "usr": "c:objc(cs)UIFont"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC13LoadingScreenC10customFontSo6UIFontCSgvg",
+                    "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC13LoadingScreenC10customFontSo6UIFontCSgvg",
+                    "moduleName": "AKCardCaptureSwift",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIFont?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIFont",
+                            "printedName": "UIKit.UIFont",
+                            "usr": "c:objc(cs)UIFont"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC13LoadingScreenC10customFontSo6UIFontCSgvs",
+                    "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC13LoadingScreenC10customFontSo6UIFontCSgvs",
+                    "moduleName": "AKCardCaptureSwift",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC13LoadingScreenC10customFontSo6UIFontCSgvM",
+                    "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC13LoadingScreenC10customFontSo6UIFontCSgvM",
+                    "moduleName": "AKCardCaptureSwift",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
               }
             ],
             "declKind": "Class",
@@ -1651,6 +2075,391 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "inheritsConvenienceInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "CaptureScreen",
+            "printedName": "CaptureScreen",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaptureScreen",
+                    "printedName": "AKCardCaptureSwift.CardCaptureCustomization.CaptureScreen",
+                    "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenCAEycfc",
+                "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenCAEycfc",
+                "moduleName": "AKCardCaptureSwift",
+                "overriding": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override",
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "closeImage",
+                "printedName": "closeImage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC10closeImageSo7UIImageCvp",
+                "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC10closeImageSo7UIImageCvp",
+                "moduleName": "AKCardCaptureSwift",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC10closeImageSo7UIImageCvg",
+                    "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC10closeImageSo7UIImageCvg",
+                    "moduleName": "AKCardCaptureSwift",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC10closeImageSo7UIImageCvs",
+                    "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC10closeImageSo7UIImageCvs",
+                    "moduleName": "AKCardCaptureSwift",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC10closeImageSo7UIImageCvM",
+                    "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC10closeImageSo7UIImageCvM",
+                    "moduleName": "AKCardCaptureSwift",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "referenceFrameColor",
+                "printedName": "referenceFrameColor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC19referenceFrameColorSo7UIColorCvp",
+                "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC19referenceFrameColorSo7UIColorCvp",
+                "moduleName": "AKCardCaptureSwift",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC19referenceFrameColorSo7UIColorCvg",
+                    "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC19referenceFrameColorSo7UIColorCvg",
+                    "moduleName": "AKCardCaptureSwift",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC19referenceFrameColorSo7UIColorCvs",
+                    "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC19referenceFrameColorSo7UIColorCvs",
+                    "moduleName": "AKCardCaptureSwift",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC19referenceFrameColorSo7UIColorCvM",
+                    "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC19referenceFrameColorSo7UIColorCvM",
+                    "moduleName": "AKCardCaptureSwift",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "customFont",
+                "printedName": "customFont",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIFont?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC10customFontSo6UIFontCSgvp",
+                "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC10customFontSo6UIFontCSgvp",
+                "moduleName": "AKCardCaptureSwift",
+                "declAttributes": [
+                  "AccessControl",
+                  "ObjC"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIFont?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIFont",
+                            "printedName": "UIKit.UIFont",
+                            "usr": "c:objc(cs)UIFont"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC10customFontSo6UIFontCSgvg",
+                    "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC10customFontSo6UIFontCSgvg",
+                    "moduleName": "AKCardCaptureSwift",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "UIKit.UIFont?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIFont",
+                            "printedName": "UIKit.UIFont",
+                            "usr": "c:objc(cs)UIFont"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC10customFontSo6UIFontCSgvs",
+                    "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC10customFontSo6UIFontCSgvs",
+                    "moduleName": "AKCardCaptureSwift",
+                    "declAttributes": [
+                      "ObjC"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC10customFontSo6UIFontCSgvM",
+                    "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC10customFontSo6UIFontCSgvM",
+                    "moduleName": "AKCardCaptureSwift",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC",
+            "mangledName": "$s18AKCardCaptureSwift04CardB13CustomizationC0B6ScreenC",
+            "moduleName": "AKCardCaptureSwift",
+            "declAttributes": [
+              "AccessControl",
               "ObjC"
             ],
             "superclassUsr": "c:objc(cs)NSObject",
@@ -2915,58 +3724,65 @@
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Customization\/CardCaptureCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 1853,
+      "offset": 2381,
       "length": 9,
       "value": "\"#FE5000\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Customization\/CardCaptureCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 2171,
+      "offset": 2699,
       "length": 9,
       "value": "\"#993000\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Customization\/CardCaptureCustomization.swift",
       "kind": "IntegerLiteral",
-      "offset": 3079,
+      "offset": 3607,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Customization\/CardCaptureCustomization.swift",
       "kind": "BooleanLiteral",
-      "offset": 3310,
+      "offset": 4102,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Customization\/CardCaptureCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 3575,
+      "offset": 4367,
       "length": 34,
       "value": "\"ak_card_capture_autentikar_light\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Customization\/CardCaptureCustomization.swift",
       "kind": "BooleanLiteral",
-      "offset": 3903,
+      "offset": 4695,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Customization\/CardCaptureCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 4507,
+      "offset": 5299,
       "length": 9,
       "value": "\"#FE5000\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Customization\/CardCaptureCustomization.swift",
       "kind": "StringLiteral",
-      "offset": 5082,
+      "offset": 5874,
       "length": 9,
       "value": "\"#FE5000\""
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Customization\/CardCaptureCustomization.swift",
+      "kind": "StringLiteral",
+      "offset": 6581,
+      "length": 32,
+      "value": "\"ic_ak_card_capture_close_image\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/Core\/Extension\/UIViewController+Extensions.swift",
@@ -3335,217 +4151,238 @@
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8159,
+      "offset": 7166,
+      "length": 2,
+      "value": "26"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7290,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7411,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8891,
       "length": 3,
       "value": "-30"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8275,
+      "offset": 9007,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8392,
+      "offset": 9124,
       "length": 3,
       "value": "-30"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8798,
+      "offset": 9530,
       "length": 3,
       "value": "4.5"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8895,
+      "offset": 9627,
       "length": 3,
       "value": "1.3"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 9192,
+      "offset": 9924,
       "length": 3,
       "value": "3.5"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9299,
+      "offset": 10031,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9408,
+      "offset": 10140,
       "length": 2,
       "value": "-6"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 9809,
+      "offset": 10541,
       "length": 3,
       "value": "4.5"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 9905,
+      "offset": 10637,
       "length": 3,
       "value": "1.3"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 10197,
+      "offset": 10929,
       "length": 3,
       "value": "3.5"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10302,
+      "offset": 11034,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10409,
+      "offset": 11141,
       "length": 2,
       "value": "-6"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10522,
+      "offset": 11254,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10636,
+      "offset": 11368,
       "length": 3,
       "value": "-30"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10846,
+      "offset": 11578,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10964,
+      "offset": 11696,
       "length": 3,
       "value": "-30"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11162,
+      "offset": 11894,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11394,
+      "offset": 12126,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11440,
+      "offset": 12172,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12381,
+      "offset": 13113,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12434,
+      "offset": 13166,
       "length": 9,
       "value": "\"Process\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12935,
+      "offset": 13667,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12979,
+      "offset": 13711,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13196,
+      "offset": 13928,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13239,
+      "offset": 13971,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13523,
+      "offset": 14255,
       "length": 11,
       "value": "\"Recapture\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13669,
+      "offset": 14401,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13725,
+      "offset": 14457,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13791,
+      "offset": 14523,
       "length": 21,
       "value": "\"InvalidCaptureTitle\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/AKStepCardCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13833,
+      "offset": 14565,
       "length": 23,
       "value": "\"InvalidCaptureMessage\""
     },
@@ -3635,302 +4472,295 @@
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 830,
-      "length": 32,
-      "value": "\"ic_ak_card_capture_close_image\""
-    },
-    {
-      "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1017,
+      "offset": 985,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1310,
+      "offset": 1278,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1374,
+      "offset": 1342,
       "length": 11,
       "value": "\"#25000000\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1550,
+      "offset": 1518,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1671,
+      "offset": 1639,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1731,
+      "offset": 1699,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1916,
+      "offset": 1884,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1963,
+      "offset": 1931,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2219,
+      "offset": 2248,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2283,
+      "offset": 2312,
       "length": 11,
       "value": "\"#25000000\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2465,
+      "offset": 2494,
       "length": 26,
       "value": "\"ic_ak_card_capture_image\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2601,
+      "offset": 2630,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3732,
+      "offset": 3761,
       "length": 54,
       "value": "\"The user has denied previously to access the camera.\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3844,
+      "offset": 3873,
       "length": 60,
       "value": "\"The user can't give camera access due to some restriction.\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3953,
+      "offset": 3982,
       "length": 56,
       "value": "\"Something has wrong due to we can't access the camera.\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4437,
+      "offset": 4466,
       "length": 49,
       "value": "\"Failed to set input device with error: \""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4485,
+      "offset": 4514,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5636,
+      "offset": 5819,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5706,
+      "offset": 5889,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5777,
+      "offset": 5960,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5920,
+      "offset": 6103,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 5954,
+      "offset": 6137,
       "length": 3,
       "value": "5.5"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 6053,
+      "offset": 6236,
       "length": 3,
       "value": "1.2"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6154,
+      "offset": 6337,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6740,
+      "offset": 6923,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6855,
+      "offset": 7038,
       "length": 3,
       "value": "-30"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6947,
+      "offset": 7130,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7042,
+      "offset": 7225,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7377,
+      "offset": 7560,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7390,
+      "offset": 7573,
       "length": 3,
       "value": "-40"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7544,
+      "offset": 7727,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7615,
+      "offset": 7798,
       "length": 2,
       "value": "70"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7725,
+      "offset": 7908,
       "length": 11,
       "value": "\"CardFront\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7816,
+      "offset": 7999,
       "length": 10,
       "value": "\"CardBack\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9523,
+      "offset": 9706,
       "length": 3,
       "value": "620"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9631,
+      "offset": 9814,
       "length": 3,
       "value": "620"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 10154,
+      "offset": 10337,
       "length": 3,
       "value": "1.1"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 10187,
+      "offset": 10370,
       "length": 3,
       "value": "1.8"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10235,
+      "offset": 10418,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 10275,
+      "offset": 10458,
       "length": 3,
       "value": "1.4"
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10795,
+      "offset": 10978,
       "length": 4,
       "value": "\"OK\""
     },
     {
       "filePath": "\/Users\/yesidm\/Documents\/Active_IT-Autentikar\/Projects\/autentikar-ios\/iOS_SPM\/AditionalSwift\/AKCardCaptureSwift\/AKCardCaptureSwift\/UI\/Module\/CardCaptureViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10959,
+      "offset": 11142,
       "length": 13,
       "value": "\"RunnigError\""
     },
