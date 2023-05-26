@@ -13,6 +13,14 @@ import _Concurrency
 import _StringProcessing
 @objc @_inheritsConvenienceInitializers public class CardCaptureCustomization : ObjectiveC.NSObject {
   @objc override dynamic public init()
+  @objc public var showBackgroundImage: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public var backgroundImage: UIKit.UIImage {
+    @objc get
+    @objc set
+  }
   @objc public var backgroundColor: UIKit.UIColor {
     @objc get
     @objc set
@@ -38,6 +46,10 @@ import _StringProcessing
     @objc set
   }
   @objc public var captureScreenCustomization: AKCardCaptureSwift.CardCaptureCustomization.CaptureScreen {
+    @objc get
+    @objc set
+  }
+  @objc public var bundleForLocalizableString: Foundation.Bundle? {
     @objc get
     @objc set
   }

@@ -14,7 +14,7 @@
 		</data>
 		<key>Frameworks/AKCoreSwift.framework/AKCoreSwift</key>
 		<data>
-		YF7I0lslLUIlaCWKRLgAlZnBp0g=
+		P8WDm9dBzXcta+CAuxP1OirV0KM=
 		</data>
 		<key>Frameworks/AKCoreSwift.framework/Assets.car</key>
 		<data>
@@ -57,7 +57,7 @@
 		</dict>
 		<key>Headers/AKCardCaptureSwift-Swift.h</key>
 		<data>
-		2YdNSeQhZsPa8YhvF+3AhJNltTI=
+		X1buzb4oqylj6FwYDGct81Sy0c8=
 		</data>
 		<key>Headers/AKCardCaptureSwift.h</key>
 		<data>
@@ -69,11 +69,11 @@
 		</data>
 		<key>Modules/AKCardCaptureSwift.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		5umki0f+80CH4qXuGPjaeGreiMQ=
+		/f4qRLVEQS0Stkv9sLPBnbsDEyk=
 		</data>
 		<key>Modules/AKCardCaptureSwift.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		2vPTKPEu/DiaRfpxUNiFOcZHjIs=
+		8/eqjvYYG13N2eJXTjI4c6ZxiKU=
 		</data>
 		<key>Modules/AKCardCaptureSwift.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -81,11 +81,11 @@
 		</data>
 		<key>Modules/AKCardCaptureSwift.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		2vPTKPEu/DiaRfpxUNiFOcZHjIs=
+		8/eqjvYYG13N2eJXTjI4c6ZxiKU=
 		</data>
 		<key>Modules/AKCardCaptureSwift.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		OmjMnjWp+f1ZHrh2R5Uz2uWapbk=
+		NcZgCHbY9faS6bosLNNkfiJzhAw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -121,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zXGUA4Gf5EkqRA0n9cz2XIdDyVkVsKy7c3MzbYqx2Wo=
+			X0RvJ5ZB2ieUpQpShIRKER7lVXJlrH1a1ItwoZfYZms=
 			</data>
 		</dict>
 		<key>Frameworks/AKCoreSwift.framework/Assets.car</key>
@@ -176,7 +176,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Da78cisiDRrybeNShk3q8zYXFghFX8Q+GOapIy7wl6E=
+			uNPOY0t4qkQ6Q/fSgoKTHyR/Cn2pyz/mKYmbA1d5Z0E=
 			</data>
 		</dict>
 		<key>Headers/AKCardCaptureSwift.h</key>
@@ -190,14 +190,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hSBXFbgWGokD9P7o6DhaebZmsKmNG6UTAUTKAOScQ44=
+			fqSdluQ4qROapo3mtzckOO6AkH/YC3FsYnQp5JQURck=
 			</data>
 		</dict>
 		<key>Modules/AKCardCaptureSwift.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KdOm+nRj8owXn/NFTxc6X47GEIJHxbdygtV2eOjoWJ4=
+			3HFc/sKoc8kF9uJQIoSoEX2LVCBj5tJsDfmczvezXzQ=
 			</data>
 		</dict>
 		<key>Modules/AKCardCaptureSwift.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -211,14 +211,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KdOm+nRj8owXn/NFTxc6X47GEIJHxbdygtV2eOjoWJ4=
+			3HFc/sKoc8kF9uJQIoSoEX2LVCBj5tJsDfmczvezXzQ=
 			</data>
 		</dict>
 		<key>Modules/AKCardCaptureSwift.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IQqIzF6CY79cOcOp0S38ozw5iQ9YK64owcH5RHqOBa0=
+			8VOhBn5MXVuf4QlvJ9giF1TahSL55mORAso/o7cGMkg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

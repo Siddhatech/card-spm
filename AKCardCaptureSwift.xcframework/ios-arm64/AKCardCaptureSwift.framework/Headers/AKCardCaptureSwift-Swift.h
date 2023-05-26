@@ -293,16 +293,19 @@ SWIFT_CLASS("_TtC18AKCardCaptureSwift13AKCardCapture")
 @end
 
 
-@class UIColor;
 @class UIImage;
+@class UIColor;
 @class UIFont;
 @class Button;
 @class LoadingScreen;
 @class CaptureScreen;
+@class NSBundle;
 
 SWIFT_CLASS("_TtC18AKCardCaptureSwift24CardCaptureCustomization")
 @interface CardCaptureCustomization : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic) BOOL showBackgroundImage;
+@property (nonatomic, strong) UIImage * _Nonnull backgroundImage;
 @property (nonatomic, strong) UIColor * _Nonnull backgroundColor;
 @property (nonatomic, strong) UIColor * _Nonnull textColor;
 @property (nonatomic, strong) UIImage * _Nonnull cardRecapture;
@@ -310,6 +313,7 @@ SWIFT_CLASS("_TtC18AKCardCaptureSwift24CardCaptureCustomization")
 @property (nonatomic, strong) Button * _Nonnull buttonCustomization;
 @property (nonatomic, strong) LoadingScreen * _Nonnull loadingScreenCustomization;
 @property (nonatomic, strong) CaptureScreen * _Nonnull captureScreenCustomization;
+@property (nonatomic, strong) NSBundle * _Nullable bundleForLocalizableString;
 @end
 
 
