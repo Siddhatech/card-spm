@@ -1,7 +1,6 @@
 # AKCardSwift *by Autentikar*
 
-## version 1.4.4 :rocket:
+## version 1.4.5 :rocket:
 
 # Added
-* new bundleForLocalizableString property for custom strings.
-* you can add background image in principal screen
+* new backgroundColorContainer property for custom color in containers.

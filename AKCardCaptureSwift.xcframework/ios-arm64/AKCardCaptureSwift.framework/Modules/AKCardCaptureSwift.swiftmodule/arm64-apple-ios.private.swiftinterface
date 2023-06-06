@@ -37,6 +37,10 @@ import _StringProcessing
     @objc get
     @objc set
   }
+  @objc public var backgroundColorContainer: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
   @objc public var buttonCustomization: AKCardCaptureSwift.CardCaptureCustomization.Button {
     @objc get
     @objc set

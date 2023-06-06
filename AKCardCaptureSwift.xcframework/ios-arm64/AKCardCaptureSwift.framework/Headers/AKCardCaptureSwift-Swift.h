@@ -310,6 +310,7 @@ SWIFT_CLASS("_TtC18AKCardCaptureSwift24CardCaptureCustomization")
 @property (nonatomic, strong) UIColor * _Nonnull textColor;
 @property (nonatomic, strong) UIImage * _Nonnull cardRecapture;
 @property (nonatomic, strong) UIFont * _Nullable customFont;
+@property (nonatomic, strong) UIColor * _Nonnull backgroundColorContainer;
 @property (nonatomic, strong) Button * _Nonnull buttonCustomization;
 @property (nonatomic, strong) LoadingScreen * _Nonnull loadingScreenCustomization;
 @property (nonatomic, strong) CaptureScreen * _Nonnull captureScreenCustomization;
