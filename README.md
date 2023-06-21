@@ -1,6 +1,6 @@
 # AKCardSwift *by Autentikar*
 
-## version 1.4.5 :rocket:
+## version 1.4.6 :rocket:
 
-# Added
-* new backgroundColorContainer property for custom color in containers.
+# Updated
+* Various stability improvement fixes.
