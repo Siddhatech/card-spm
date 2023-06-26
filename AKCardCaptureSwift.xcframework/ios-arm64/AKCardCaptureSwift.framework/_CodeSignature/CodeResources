@@ -12,49 +12,6 @@
 		<data>
 		gyZROrcmjxQKZeAqfNe+01oPGqM=
 		</data>
-		<key>Frameworks/AKCoreSwift.framework/AKCoreSwift</key>
-		<data>
-		pZoAUp6xnP00SBydwWQronpdOno=
-		</data>
-		<key>Frameworks/AKCoreSwift.framework/Assets.car</key>
-		<data>
-		KM6A2Qc0UPz7P1gWd+NPBFSAdxI=
-		</data>
-		<key>Frameworks/AKCoreSwift.framework/Base.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5AT35pYFZYxvWx7FA3KZ1syBr44=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/AKCoreSwift.framework/Info.plist</key>
-		<data>
-		GzDWCYf0lOX0+16Rk1KGJmRoFQQ=
-		</data>
-		<key>Frameworks/AKCoreSwift.framework/_CodeSignature/CodeResources</key>
-		<data>
-		Hh4whiBwh8SoHJGrpD3o5ewIEqg=
-		</data>
-		<key>Frameworks/AKCoreSwift.framework/es-419.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QZG0fkC2gP43T9mzYJZvcOj9NE0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/AKCoreSwift.framework/es.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QZG0fkC2gP43T9mzYJZvcOj9NE0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Headers/AKCardCaptureSwift-Swift.h</key>
 		<data>
 		737EPvEszT6gcOT0SyxHcB+S+3A=
@@ -116,61 +73,6 @@
 			<data>
 			kVg9Y/Y6Q6h20dLqunMbnUCkz5KdgoMABl0Xc6162Mw=
 			</data>
-		</dict>
-		<key>Frameworks/AKCoreSwift.framework/AKCoreSwift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			imk30ySmdeuSmSjPB/ZMQBzitOw8X9Pw7z4c4gqQA5M=
-			</data>
-		</dict>
-		<key>Frameworks/AKCoreSwift.framework/Assets.car</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			aYoSjRi3i/76Dbk0+F6krxeq7ib8ZAJahNUvge0Ed9k=
-			</data>
-		</dict>
-		<key>Frameworks/AKCoreSwift.framework/Base.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			e6R9KUzS+x1ojB1UnlatsZmhGFjzdzeIsIbFW3qD+/I=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/AKCoreSwift.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			e2OeEe89YeMFdjYevwouCjEqWlR7k01WogO8Kxf2eKI=
-			</data>
-		</dict>
-		<key>Frameworks/AKCoreSwift.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			W0zTnt1IK8+Md594Ck45UPxA09XBM4zEVcjiAyIFmh8=
-			</data>
-		</dict>
-		<key>Frameworks/AKCoreSwift.framework/es-419.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mfeLZh8SC+nE5KZ1r8ZKvWKrjWddG/XOSuAgx3FNBPg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/AKCoreSwift.framework/es.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mfeLZh8SC+nE5KZ1r8ZKvWKrjWddG/XOSuAgx3FNBPg=
-			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>Headers/AKCardCaptureSwift-Swift.h</key>
 		<dict>
