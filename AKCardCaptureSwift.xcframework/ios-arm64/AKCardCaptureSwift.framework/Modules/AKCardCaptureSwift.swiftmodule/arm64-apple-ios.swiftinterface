@@ -37,6 +37,10 @@ import _StringProcessing
     @objc get
     @objc set
   }
+  @objc public var customHeaderFont: UIKit.UIFont? {
+    @objc get
+    @objc set
+  }
   @objc public var backgroundColorContainer: UIKit.UIColor {
     @objc get
     @objc set
@@ -72,6 +76,10 @@ import _StringProcessing
       @objc set
     }
     @objc public var textColor: UIKit.UIColor {
+      @objc get
+      @objc set
+    }
+    @objc public var textColorSecondary: UIKit.UIColor {
       @objc get
       @objc set
     }
@@ -147,8 +155,24 @@ import _StringProcessing
   @objc override dynamic public init()
   @objc deinit
 }
-extension UIKit.UIImage {
-  public var PNGBase64: Swift.String {
+public enum CaptureDocType {
+  case cardID
+  case passport
+  public typealias RawValue = Swift.String
+  public var rawValue: AKCardCaptureSwift.CaptureDocType.RawValue {
+    get
+  }
+  public init?(rawValue: AKCardCaptureSwift.CaptureDocType.RawValue)
+  public static func == (a: AKCardCaptureSwift.CaptureDocType, b: AKCardCaptureSwift.CaptureDocType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
     get
   }
 }
+extension UIKit.UIImage {
+  public var PNGBase64: Swift.String? {
+    get
+  }
+}
+extension AKCardCaptureSwift.CaptureDocType : Swift.Equatable {}
+extension AKCardCaptureSwift.CaptureDocType : Swift.Hashable {}
