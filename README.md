@@ -1,6 +1,6 @@
 # AKCardSwift *by Autentikar*
 
-## version 1.4.9 :rocket:
+## version 1.4.10 :rocket:
 
 # Updated
 * Various stability improvement fixes.
