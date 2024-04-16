@@ -1,0 +1,11 @@
+framework module AKCardCaptureSwift {
+  umbrella header "AKCardCaptureSwift.h"
+  export *
+
+  module * { export * }
+}
+
+module AKCardCaptureSwift.Swift {
+  header "AKCardCaptureSwift-Swift.h"
+  requires objc
+}
