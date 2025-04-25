@@ -17,7 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AKCardCaptureSwift",
-            path: "AKCardCaptureSwift.xcframework"
+            path: "AKCardCaptureSwift.xcframework",
+            condition: .when(platforms: [.iOS])
         )
     ]
 )
